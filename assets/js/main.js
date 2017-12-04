@@ -1,8 +1,8 @@
 /* global responsiveVoice */
 $(() => {
 
-  responsiveVoice.speak('Hello world', 'US English Female', {
+  responsiveVoice.speak('Killersamus', 'US English Female', {
     'pitch': 1,
-    'onend': () => responsiveVoice.speak('O lo, que es lo mismo, Hola mundo', 'Spanish Female')
+    'onend': () => responsiveVoice.speak('es una pasada de hombre... que no! es un polluelo', 'Spanish Female')
   });
 });
