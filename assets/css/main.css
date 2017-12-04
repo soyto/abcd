@@ -1,0 +1,7 @@
+.result-text span{
+  transition: font-size .5s ease, color .5s ease;
+}
+.result-text span.current-letter {
+  font-size: 50px;
+  color: blue;
+}
