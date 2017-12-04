@@ -9,10 +9,6 @@ $(() => {
 
   _inputText.focus();
 
-  _inputText.addEventListener('blur', () => {
-    _inputText.focus();
-  });
-
   _inputText.addEventListener('keydown', $$evt => {
     if($$evt['keyCode'] === 13) {
       _play();
