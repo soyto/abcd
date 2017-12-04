@@ -1,0 +1,20 @@
+{
+  "name": "abcd",
+  "homepage": "https://github.com/soyto/abcd",
+  "authors": [
+    "soyto <alf.ixos@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "textillate": "^0.4.0"
+  }
+}
